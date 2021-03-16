@@ -1,0 +1,73 @@
+
+
+aw = a word
+iw = inner word
+
+daw ljfks
+diw
+
+caw
+ciw
+
+yaw
+yiw
+
+JFKSDLFJ; SKDD
+
+
+-------------------------------------------------
+类型            缩写        例子
+
+word            w           一个单词
+WORD            W
+sentence        s           一行，或一个句子
+paragraph       p           一段
+tag             t           <h1>skdfjjsdfkjskd</h1>
+block           b
+Block           B
+symbol block    " ' ([{<
+
+-------------------------------------------------
+
+
+y               yank
+d               delete
+c               change 
+v               visual 
+=               format
+gu              lowercase
+gU              uppercase
+
+
+----------------------------------------
+
+i             #进入插入模式;
+array[0] = ;  #输入首行代码;
+ESC           #进入普通模式（normal） --->备注：后续操作全在普通模式下进行;
+
+qa            #打开操作记录器，将后续动作放在记录器a中;（左下角会显示一个【记录中@a】提示符号）
+yy            #复制本行;
+p             #粘贴到下一行;         --->备注：光标会自动定位到新粘贴的一行行首;
+ctrl+a        #角标自加1;
+q             #关闭记录器;           --->备注：此时仍处于normal模式
+
+9@a           #将上述记录器记录的动作执行9次。（即：将【yy -> p -> ctrl+a】执行10次）
+
+
+int array[0] = ;
+int array[1] = ;
+int array[2] = ;
+int array[3] = ;
+int array[4] = ;
+int array[5] = ;
+int array[6] = ;
+int array[7] = ;
+int array[8] = ;
+int array[9] = ;
+int array[10] = ;
+
+
+
+
+
+
