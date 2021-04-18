@@ -12,6 +12,8 @@ filetype plugin indent on
 " 插入模式下jk映射为esc
 imap jk <Esc>
 
+
+set ls=2
 set autowrite
 
 " vim-plug
