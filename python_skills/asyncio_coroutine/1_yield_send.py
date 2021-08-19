@@ -1,4 +1,5 @@
-
+# yield send()
+# 这个例子是生成器的形式 和 协程要做区分
 def eater():
     print('Ready to eat.')
     while True:
@@ -9,8 +10,9 @@ def consumer():
     r = ''
     while True:
         # 是暂停接收也是返回
+        # n = yield r  ==  n = yield ; return r
+        # go channel
         n = yield r
-        # {n = yield r } ==  {n = yield ; return r}
         if not n:
             return
 

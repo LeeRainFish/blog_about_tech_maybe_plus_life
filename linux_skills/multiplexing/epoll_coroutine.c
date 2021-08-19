@@ -17,6 +17,23 @@
 
 // Example from man epoll
 //
+int couruntine_read(int fd){
+    // while (notfinish) {
+    //     yield();
+
+    //     read(fd);
+    // }
+    // close();
+}
+
+int couruntine_write(int fd){
+    // while (notfinish) {
+    //     yield();
+
+    //     write(fd);
+    // }
+    // close();
+}
 
 
 int setnonblocking(int sockfd)  
